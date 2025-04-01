@@ -4,7 +4,7 @@ This guide provides step-by-step instructions for setting up a local development
 
 ---
 
-## 🚀 1. Install XAMPP (Recommended for Beginners)  
+## 🚀 Install XAMPP (Recommended for Beginners)  
 
 ### Step 1: Download & Install XAMPP  
 1. Download **XAMPP** from [Apache Friends](https://www.apachefriends.org/).  
