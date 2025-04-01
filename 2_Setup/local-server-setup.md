@@ -1,4 +1,3 @@
-```md
 # 🖥 Local Server Setup Guide  
 
 This guide provides step-by-step instructions for setting up a local development environment for **Drupal 10.4.5** using XAMPP and alternative tools.  
