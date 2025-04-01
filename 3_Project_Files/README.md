@@ -9,7 +9,7 @@ This guide provides the necessary files and instructions to quickly set up Drupa
 ## Files Included
 
 - **Drupal 10.4.5 ZIP Package**: A pre-configured ZIP archive containing the full Drupal 10.4.5 package.
-- **Installation Guide**: A step-by-step guide to installing and setting up Drupal on your local environment.
+- [Download Drupal 10.4.5 Package](https://ftp.drupal.org/files/projects/drupal-10.4.5.zip)
 
 ---
 
