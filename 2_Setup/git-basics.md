@@ -1,8 +1,3 @@
-Here is your `git-setup.md` file with step-by-step instructions for installing Git. Let me know if you need any modifications! 🚀  
-
----
-
-```md
 # Git Installation and Setup Guide
 
 This guide provides step-by-step instructions for installing Git and configuring it for use in your projects.
@@ -102,9 +97,3 @@ To check if Git is working, run:
 ```sh
 git --version
 ```
-
-You are now ready to use Git! 🎉  
-For further reading, visit the [official Git documentation](https://git-scm.com/doc).
-```
-
-Let me know if you need any changes! 🚀
