@@ -58,3 +58,56 @@ Verify installation by running:
 composer -V
 php -v
 git --version
+
+
+## Step 2: Create a New Drupal Project
+
+1. Open **Command Prompt** (Windows) or **Terminal** (Mac/Linux).
+2. Navigate to your web server directory (e.g., `htdocs` for XAMPP):
+    ```bash
+    cd /path/to/htdocs
+    ```
+3. Run the following command to install Drupal:
+    ```bash
+    composer create-project drupal/recommended-project drupal_training
+    ```
+4. Once the installation completes, go into the project folder:
+    ```bash
+    cd drupal_training
+    ```
+
+---
+
+## Step 3: Set Up Apache Virtual Host (Optional, Recommended for Local Development)
+
+1. Open Apache’s `httpd-vhosts.conf` file.
+2. Add the following virtual host entry:
+    ```apache
+    <VirtualHost *:80>
+        DocumentRoot "C:/xampp/htdocs/drupal_training/web"
+        ServerName drupal.local
+        <Directory "C:/xampp/htdocs/drupal_training/web">
+            AllowOverride All
+            Require all granted
+        </Directory>
+    </VirtualHost>
+    ```
+3. Restart Apache.
+
+---
+
+## Step 4: Set Up the Database
+
+1. Open **phpMyAdmin** (`http://localhost/phpmyadmin`).
+2. Create a database `drupal_training`.
+
+---
+
+## Step 5: Install Drupal
+
+1. Run the installation script:
+    ```bash
+    php -S localhost:8080 -t web
+    ```
+2. Open `http://localhost:8080` in a browser.
+3. Follow the Drupal installation wizard, enter database details, and set up the admin account.
