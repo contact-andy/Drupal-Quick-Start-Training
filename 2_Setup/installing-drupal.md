@@ -59,7 +59,7 @@ composer -V
 php -v
 git --version
 
-
+---
 ## Step 2: Create a New Drupal Project
 
 1. Open **Command Prompt** (Windows) or **Terminal** (Mac/Linux).
