@@ -7,7 +7,7 @@ This guide provides step-by-step instructions to install **Drupal 10.4.5** using
 
 ---
 
-## 🚀 Method 1: Installing Drupal 10.4.5 Using ZIP Package
+## Method 1: Installing Drupal 10.4.5 Using ZIP Package
 
 ### Step 1: Download Drupal  
 1. Visit the official [Drupal website](https://www.drupal.org/download).  
@@ -43,7 +43,7 @@ This guide provides step-by-step instructions to install **Drupal 10.4.5** using
 
 ---
 
-## ⚡ Method 2: Installing Drupal 10.4.5 Using Composer (Recommended)
+## Method 2: Installing Drupal 10.4.5 Using Composer
 
 This method is recommended for **developers** because it provides easy updates and dependency management.  
 
@@ -76,34 +76,14 @@ git --version
     cd drupal_training
     ```
 
----
-
-## Step 3: Set Up Apache Virtual Host (Optional, Recommended for Local Development)
-
-1. Open Apache’s `httpd-vhosts.conf` file.
-2. Add the following virtual host entry:
-    ```apache
-    <VirtualHost *:80>
-        DocumentRoot "C:/xampp/htdocs/drupal_training/web"
-        ServerName drupal.local
-        <Directory "C:/xampp/htdocs/drupal_training/web">
-            AllowOverride All
-            Require all granted
-        </Directory>
-    </VirtualHost>
-    ```
-3. Restart Apache.
-
----
-
-## Step 4: Set Up the Database
+## Step 3: Set Up the Database
 
 1. Open **phpMyAdmin** (`http://localhost/phpmyadmin`).
 2. Create a database `drupal_training`.
 
 ---
 
-## Step 5: Install Drupal
+## Step 4: Install Drupal
 
 1. Run the installation script:
     ```bash
