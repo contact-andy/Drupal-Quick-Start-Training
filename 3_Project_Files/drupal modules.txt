@@ -1,0 +1,9 @@
+composer require drupal/address
+composer require drupal/entity
+composer require drupal/token
+composer require drupal/inline_entity_form:^dev-1.x
+composer require drupal/entity_reference_revisions
+composer require drupal/profile
+composer require drupal/state_machine
+composer require commerceguys/intl
+composer require drupal/kart
